@@ -1,0 +1,117 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .titulo-bgimagen h1 {
+    padding-top: 0.5rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .titulo-bgimagen p {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  }
+
+  .contact input[type="text"] {
+    width: 290px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  tr td:first-child {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  tbody td {
+    display: block;
+    text-align: center;
+  }
+  tbody td:before {
+    content: attr(data-th);
+    text-align: center;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .titulo-bgimagen h1 {
+    font-family: "Anton", sans-serif;
+    padding-top: 1em;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  }
+
+  .titulo-bgimagen p {
+    color: white;
+  }
+
+  .navbar {
+    font-size: 0.7rem;
+  }
+
+  table {
+    width: 100%;
+  }
+  thead {
+    display: none;
+  }
+  tr:nth-of-type(2n) {
+    background-color: inherit;
+  }
+  tr td:first-child {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  tbody td {
+    display: block;
+    text-align: center;
+  }
+  tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .bgfooter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  table {
+    width: 100%;
+  }
+  thead {
+    display: none;
+  }
+  tr:nth-of-type(2n) {
+    background-color: inherit;
+  }
+  tr td:first-child {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  tbody td {
+    display: block;
+    text-align: center;
+  }
+  tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align: center;
+  }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

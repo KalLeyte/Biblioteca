@@ -1,0 +1,338 @@
+body{
+background-color: white;
+}
+
+
+/* inicio del banner */
+
+.bgimagen-textura{
+  background: url(../img/imgacceso.jpg)fixed center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+.titulo-bgimagen{
+  padding: 5% 0;
+}
+
+ .titulo-bgimagen h1{
+   font-family: 'Anton', sans-serif;
+   font-size: 4rem;
+   text-transform: uppercase;
+   text-align: center;
+   color: black;
+ }
+
+ .titulo-bgimagen p{
+   text-transform: uppercase;
+   text-align: center;
+   color: black;
+ }
+
+
+/* fin del banner */
+
+/* inicio de las tablas */
+
+table {
+    width:100%;
+}
+
+thead {
+    display: none;
+}
+tr:nth-of-type(2n) {
+    background-color: inherit;
+}
+tr td:first-child {
+
+    font-size:1.3em;
+}
+tbody td {
+    display: block;
+    text-align:center;
+}
+tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align:center;
+}
+
+#resultado{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.resultados{
+  border-radius: 0px;
+    width: 80%;
+    margin: auto;
+    margin-bottom:  2rem;
+    margin-top: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.border-primary{
+  border-radius: 50px;
+}
+
+.table-hover{
+  background-image: linear-gradient(to right top, #0f1f6b, #011d59, #001947, #031534, #060e22, #050c20, #040b1d, #03091b, #040e27, #021233, #001540, #00164c);
+}
+
+.table-bordered{
+  background-image: linear-gradient(to right top, #0f1f6b, #011d59, #001947, #031534, #060e22, #050c20, #040b1d, #03091b, #040e27, #021233, #001540, #00164c);
+
+}
+
+.contact input[type="text"],
+.contact input[type="password"],
+.contact input[type="number"],
+.contact textarea,
+.coment input[type="text"],
+.coment input[type="password"],
+.contact input[type="number"],
+.coment textarea,
+.confirm input[type="text"],
+.confirm input[type="password"],
+.contact input[type="number"],
+.confirm textarea{
+	border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 0px;
+	resize: none;
+	background: #eaeaea;
+	-webkit-box-shadow: 0 0 1px 2px #eaeaea;
+     -moz-box-shadow: 0 0 1px 2px #eaeaea;
+          box-shadow: 0 0 1px 2px #eaeaea;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;
+          margin-bottom: 10px;
+}
+
+.contact input[type="text"]:focus,
+.contact input[type="password"]:focus,
+.contact input[type="number"]:focus,
+.contact textarea:focus,
+.coment input[type="text"]:focus,
+.coment input[type="password"]:focus,
+.contact input[type="number"]:focus,
+.coment textarea:focus,
+.confirm input[type="text"]:focus,
+.confirm input[type="password"]:focus,
+.contact input[type="number"]:focus,
+.confirm textarea:focus{
+	color: blue;
+	-webkit-box-shadow: 0 0 1px 2px blue !important;
+     -moz-box-shadow: 0 0 1px 2px blue !important;
+          box-shadow: 0 0 1px 2px blue !important;
+	outline: none;
+}
+
+.contact textarea,
+.coment textarea{
+	padding: 10px;
+}
+
+.contact input[type="text"],
+.contact input[type="password"],
+.contact input[type="number"]{
+	height: 46px;
+	padding: 10px
+}
+
+.confirm input[type="text"],
+.confirm input[type="password"],
+.contact input[type="number"]{
+	height: 35px;
+	padding: 10px;
+}
+
+.coment input[type="text"],
+.coment input[type="password"],
+.contact input[type="number"]
+{
+	height: 35px;
+	padding: 10px;
+	margin-right: 5px;
+}
+
+.btn-dark,
+.bt-dark:active{
+  background: blue;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+
+/* fin de las tablas */
+
+/* inicio login */
+
+.acceso-img{
+  background: url(../img/imgacceso.jpg)fixed center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+ .acceso h1{
+   font-family: 'Anton', sans-serif;
+   font-size: 5rem;
+   text-transform: uppercase;
+   text-align: center;
+   color: black;
+ }
+
+/* fin login */
+
+/* inicio de la barra de navegacion */
+.navbar{
+  font-size: 0.9rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+
+}
+
+.navbar .navbar-invers{
+  background: #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+
+.navbar .navbar-brand{
+  color: white;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-brand i{
+  color: #02E301;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.navbar-blue{
+  color: blue;
+
+  text-decoration: none;
+}
+
+/* fin de la barra de navegacion */
+
+/* inicio del footer */
+
+.bgfooter{
+  background-image: linear-gradient(to right top, #262529, #232226, #202023, #1e1d21, #1b1b1e, #1b1b1e, #1b1b1e, #1b1b1e, #1e1d21, #202023, #232226, #262529);
+
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.10);
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+  color: white;
+  padding:  2% 0;
+}
+
+.bgfooter p{
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+
+}
+
+.footernav{
+display: inline-block;
+font-size: 0.7rem;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+}
+
+.footernav a{
+  color: white;
+  margin: 0 -2px;
+}
+
+.footernav p:hover{
+  color: #1E90FF;
+  margin: 0 -2px;
+}
+
+.footernav li:hover{
+  color: #1E90FF;
+  margin: 0 -2px;
+}
+
+/* fin del footer */
+
+/* inicio de clases de relleno */
+
+.text p{
+  font-family: 'Anton', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  margin-top:  2rem;
+}
+
+.unico h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.unico p{
+  font-family: 'Anton', sans-serif;
+  font-size: 1rem;
+}
+
+.titul{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ver{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+
+.mensaje h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.cbta{
+  text-align: center;
+}
+
+.cbta p{
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+/* fin de clases de relleno*/
