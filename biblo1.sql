@@ -66,10 +66,10 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `usuario`, `contrasena`) VALUES
-(1, 'Kal Leyte', 'warriors7'),
-(2, 'itzel torres', 'teamo'),
-(3, 'fernando josue', 'soydios1'),
-(4, 'jesus salvador', 'loli'),
+(1, 'Kal Leyte', '123'),
+(2, 'itzel torres', '123'),
+(3, 'fernando josue', '123'),
+(4, 'jesus salvador', '123'),
 (5, 'imanol herrera', 'felix'),
 (6, 'sergio eduardo turrubiates lir', 'enlace'),
 (7, 'biblioteca', 'cbta35'),
